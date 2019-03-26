@@ -3,6 +3,7 @@ const app = express()
 const books_controller = require('./controllers/books_controller');
 
 app.use(express.json())
+app.use(express.static(__dirname + "/../build/static"))
 
 const PORT = 4000;
 
