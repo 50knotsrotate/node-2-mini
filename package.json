@@ -1,0 +1,25 @@
+{
+  "name": "node-2",
+  "version": "1.0.0",
+  "description": "Just some more node stuff",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/50knotsrotate/node-2-mini.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Patrick McMahon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/50knotsrotate/node-2-mini/issues"
+  },
+  "homepage": "https://github.com/50knotsrotate/node-2-mini#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
